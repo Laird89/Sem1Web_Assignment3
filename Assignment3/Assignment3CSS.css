@@ -1,0 +1,117 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+
+
+
+body{
+    background-attachment: fixed;
+    background-image: url(media/skateboarding.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    background: rgb(94, 122, 145);
+    height: 75px;
+}
+
+#headerfont{
+    text-align: center;
+    color: rgba(0,0,0,0.4);
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#table1{
+    position: fixed;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(250, 235, 215, 0.7);
+}
+
+.col12{
+    font-size: 1.5rem;
+}
+
+
+#larger{
+    padding-right: 5px;
+    color: rgb(56, 63, 86);
+    font-size: 3rem;
+}
+
+#img{
+    width: 250px;
+}
+
+#studentlist{
+    margin-left: 20px;
+}
+
+#img2{
+    margin-top: 30px;
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    float: left;
+}
+
+#list{
+    list-style-position: inside;
+    background-color: rgb(250, 235, 215, 0.7);
+    margin-top: 30px;
+    height: 192px;
+}
+
+#list2{
+    list-style-position: inside;
+    background-color: rgb(250, 235, 215, 0.7);
+    margin-top: 30px;
+    height: 200px;
+}
+
+footer{
+    margin-top:20px;
+    background-color: rgb(94, 122, 145);
+    height: 75px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+ol{
+   list-style-type: upper-roman;
+}
+
+
+#goBack{
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    float: right;
+}
+
+#goBack:hover{
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    float: right;
+}
+
+a:visited{
+    color: rgb(14, 16, 19);
+}
+a:hover{
+    color: rgb(58, 70, 84);
+}
